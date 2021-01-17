@@ -10,7 +10,6 @@ public class BaseServiceImpl <D extends BaseDTO, E extends BaseEntity, R extends
 	@Override
 	public Optional<List<D>> findAllByActive() {
 		
-		repository.findAllByActive();
 		return null;
 	}
 

@@ -7,5 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BaseRepository <E extends BaseEntity> extends JpaRepository<E, Long>{
 	
-	Optional<List<E>> findAllByActive();
+//	public Optional<List<E>> findAllByActive(boolean active);
 }

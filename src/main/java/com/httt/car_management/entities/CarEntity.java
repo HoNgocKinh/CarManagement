@@ -36,6 +36,9 @@ public class CarEntity extends BaseEntity {
 	@Column(name = "image")
 	private String image;
 	
+	@Column(name = "quantity")
+	private int quantity;
+	
 	public String getType() {
 		return type;
 	}
@@ -98,5 +101,13 @@ public class CarEntity extends BaseEntity {
 
 	public void setImage(String image) {
 		this.image = image;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 }

@@ -1,0 +1,16 @@
+INSERT INTO user_info(`id`, `name`, `address`, `dob`, `gender`, `phone`, `email`) VALUES 
+(1, 'Gwen Hilpert','3402  Burdett Avenue, Terrace, British Columbia, Canada','1972-05-12',TRUE, '575-642-8469', 'Verlie.Parisian31@yahoo.com'),
+(2, 'Jasmine Murazik','2453  Lynden Road, Wainfleet, Ontario, Canada','1973-07-20',TRUE, '857.979.1282 x965', 'Lauren73@gmail.com'),
+(3, 'Miss Max Heidenreich','4384  Yonge Street, Toronto, Ontario, Canada','1972-09-21',TRUE, '(747) 640-6720 x09985', 'Stephania.Feest30@hotmail.com'),
+(4, 'Charlie Reichert','4566  MacLaren Street, Ottawa, Ontario, Canada','1980-05-20',FALSE, '676.342.9755', 'Madaline37@hotmail.com'),
+(5, 'William Skiles','3875  Main St, Kindersley, Saskatchewan, Canada','1979-10-11',TRUE, '(852) 211-1251', 'Anais.Buckridge88@hotmail.com'),
+(6, 'Ms. Brenda Koch','633  Ross Terrasse, Sackville, New Brunswick, Canada','1975-02-11',FALSE, '629.808.7491 x5547', 'Rhoda44@yahoo.com'),
+(7, 'Lola Flatley','3766  Tycos Dr, Toronto, Ontario, Canada','1988-05-30',FALSE, '413.689.5440', 'Alia.Rempel@hotmail.com'),
+(8, 'Andy Lowe','2246  Rogers Road, Toronto, Ontario, Canada','1981-05-19',FALSE, '365.257.8271 x121', 'Darrion_Hansen42@gmail.com'),
+(9, 'Stewart Paucek','3931  Camp Road, Oyster Bed, Prince Edward Island, Canada','1987-01-14',TRUE, '(213) 330-2710', 'Ettie46@hotmail.com'),
+(10, 'Clint Bernier','4622  Carling Avenue, Ottawa, Ontario, Canada','1982-03-21',TRUE, '1-466-645-9377', 'Demond13@hotmail.com'),
+(11, 'Roosevelt Durgan','3995  Wallbridge Loyalist Rd, Belleville, Ontario, Canada','1988-06-06',FALSE, '1-261-609-7363', 'Bernadette_Kozey13@hotmail.com'),
+(12, 'Curtis Becker','1225  Hastings Street, Vancouver, British Columbia, Canada','1980-05-30',TRUE, '1-556-227-6671 x5098', 'Garnet.Hamill59@yahoo.com'),
+(13, 'Tommy Grant','1588  Blanshard, Victoria, British Columbia, Canada','1972-05-24',TRUE, '433.669.6007 x7614', 'Norma12@yahoo.com'),
+(14, 'Sherry Dibbert Sr.','2780  Brew Creek Rd, Squamish, British Columbia, Canada','1991-01-20',FALSE, '1-672-924-1499 x034', 'Hubert_Kozey31@gmail.com'),
+(15, 'Lyle Russel','2734  Kinchant St, Chilako River, British Columbia, Canada','1992-07-22',FALSE, '988.582.8571 x50547', 'Domingo_Trantow97@hotmail.com');

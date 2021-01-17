@@ -29,6 +29,9 @@ public class UserInfoEntity extends BaseEntity {
 	@Column(name = "phone")
 	private String phone;
 
+	@Column(name = "email", nullable =  false, unique = true)
+	private String email;
+	
 	public String getName() {
 		return name;
 	}
@@ -67,5 +70,13 @@ public class UserInfoEntity extends BaseEntity {
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }

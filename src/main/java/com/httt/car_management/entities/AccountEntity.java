@@ -19,7 +19,7 @@ public class AccountEntity extends BaseEntity {
 	private String password;
 
 	@Column(name = "user_info_id")
-	private Integer userInfoId;
+	private Long userInfoId;
 	
 	@Column(name = "roles")
 	private String roles;
@@ -43,11 +43,11 @@ public class AccountEntity extends BaseEntity {
 		this.password = password;
 	}
 
-	public Integer getUserInfoId() {
+	public Long getUserInfoId() {
 		return userInfoId;
 	}
 
-	public void setUserInfoId(Integer userInfoId) {
+	public void setUserInfoId(Long userInfoId) {
 		this.userInfoId = userInfoId;
 	}
 

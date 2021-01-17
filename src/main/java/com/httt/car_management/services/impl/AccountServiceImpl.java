@@ -13,7 +13,6 @@ import com.httt.car_management.services.AccountService;
 @Service
 public class AccountServiceImpl extends BaseServiceImpl<AccountDTO, AccountEntity, AccountRepository> implements AccountService{
 	
-	
 	@Override
 	public Optional<AccountDTO> verifyAccount(String username, String password) {
 		

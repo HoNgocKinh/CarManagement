@@ -95,7 +95,8 @@ CREATE TABLE `car` (
   `manufacture_year` int(11) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
   `sell_price` float DEFAULT NULL,
-  `type` varchar(255) DEFAULT NULL
+  `type` varchar(255) DEFAULT NULL,
+  `quantity` int DEFAULT 0,
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------

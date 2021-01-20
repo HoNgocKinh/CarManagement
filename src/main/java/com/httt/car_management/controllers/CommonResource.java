@@ -14,5 +14,10 @@ public class CommonResource {
 		return "login";
 	}
 	
+	@RequestMapping(value = "/accounts", method = RequestMethod.GET)
+	public String renderAccountPage() {
+		
+		return "account/index";
+	}
 	
 }

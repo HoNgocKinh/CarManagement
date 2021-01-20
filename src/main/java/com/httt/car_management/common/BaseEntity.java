@@ -21,16 +21,16 @@ public class BaseEntity implements Serializable {
 	@Column(name = "id")
 	private Long id;
 	
-	@Column(name = "created_at")
+	@Column(name = "created_at", insertable = true)
 	private ZonedDateTime createdAt;
 	
-	@Column(name = "updated_at")
+	@Column(name = "updated_at", insertable = true)
 	private ZonedDateTime updatedAt;
 	
 	@Column(name = "description")
 	private String description;
 	
-	@Column(name = "active")
+	@Column(name = "active", insertable = true)
 	private boolean active;
 
 	public Long getId() {

@@ -1,5 +1,6 @@
 package com.httt.car_management.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -26,7 +27,7 @@ public class BillEntity extends BaseEntity {
 	private double total;
 
 	@OneToMany(mappedBy = "bill", cascade = CascadeType.ALL)
-	private List<BillDetailEntity> billdetails;
+	private List<BillDetailEntity> billdetails = new ArrayList<>(20);
 	
 	public Long getStaffId() {
 		return staffId;
